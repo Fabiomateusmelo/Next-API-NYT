@@ -4,7 +4,7 @@ import styles from '../../styles/Home.module.css'
 export default function News({ results }) {
   return (
     <Layout>
-      <h2 className={styles.title}>Top Stories</h2>
+      <h1 className={styles.title}>Top Stories</h1>
       <ul>
         {results.map(result => {
           return (
