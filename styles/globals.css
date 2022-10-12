@@ -11,6 +11,20 @@ a {
   text-decoration: none;
 }
 
+input {
+  font-size: 1rem;
+  border-color: #0070f3;
+  border-style: ridge;
+  background: #111;
+  width: 300px;
+  padding: 6px;
+  outline-offset: 0px;
+  outline-style: ridge;
+  outline-width: 2px;
+}
+
+
+
 * {
   box-sizing: border-box;
 }

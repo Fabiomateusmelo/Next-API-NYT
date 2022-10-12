@@ -1,9 +1,19 @@
+import { useState } from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+  const [query, getQuery] = useState()
+  const router = useRouter()
+  const handleOnChange = e => getQuery(e.target.value)
+  const handleOnSubmit = e => {
+    e.preventDefault()
+    router.push(`/news/${query}`)
+  }
+
   return (
     <div className={styles.container}>
       <Head>
@@ -14,6 +24,10 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>News Feed</h1>
+
+        <form onSubmit={handleOnSubmit}>
+          <input type="text" onChange={handleOnChange} />
+        </form>
 
         <div className={styles.grid}>
           <Link href="/news/">
