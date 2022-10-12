@@ -1,13 +1,30 @@
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
 
 export default function Layout({ children }) {
+  const links = [
+    {
+      title: 'Home',
+      path: '/'
+    },
+    {
+      title: 'Top Stories',
+      path: '/news/top-stories'
+    },
+    {
+      title: 'Popular',
+      path: '/news/popular'
+    }
+  ]
   return (
-    <div className={styles.code}>
-      <Link href="/">
-        <a>Home</a>
-      </Link>
+    <>
+      {links.map(link => {
+        return (
+          <Link href={link.path}>
+            <a>{link.title} </a>
+          </Link>
+        )
+      })}
       {children}
-    </div>
+    </>
   )
 }

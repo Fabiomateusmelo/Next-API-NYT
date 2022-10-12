@@ -30,7 +30,7 @@ export async function getStaticProps() {
   const URL = `https://api.nytimes.com/svc/topstories/v2/home.json?api-key=${API_KEY}`
   const response = await fetch(URL)
   const data = await response.json()
-  console.log(data.results)
+  //console.log(data.results)
   // The value of the `props` key will be
   //  passed to the `Home` component
   return {

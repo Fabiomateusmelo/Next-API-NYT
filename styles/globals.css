@@ -23,8 +23,6 @@ input {
   outline-width: 2px;
 }
 
-
-
 * {
   box-sizing: border-box;
 }
@@ -34,7 +32,11 @@ input {
     color-scheme: dark;
   }
   body {
-    color: white;
+    color: #e5e7eb;
     background: black;
   }
+}
+
+h1 {
+  color: white;
 }
