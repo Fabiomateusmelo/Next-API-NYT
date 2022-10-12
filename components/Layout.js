@@ -5,7 +5,7 @@ export default function Layout({ children }) {
   return (
     <div className={styles.code}>
       <Link href="/">
-        <a className={styles.codee}>Home</a>
+        <a>Home</a>
       </Link>
       {children}
     </div>

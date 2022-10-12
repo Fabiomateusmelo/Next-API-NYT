@@ -99,17 +99,6 @@
   max-width: 100%;
 }
 
-.cardd {
-  margin: 0rem;
-  padding: 1.2rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 90%;
-}
 
 .card:hover,
 .card:focus,
@@ -118,12 +107,6 @@
   border-color: #0070f3;
 }
 
-.cardd:hover,
-.cardd:focus,
-.cardd:active {
-  color: #0070f3;
-  border-color: #0070f3;
-}
 
 .card h2 {
   margin: 0 0 1rem 0;

@@ -8,16 +8,16 @@ export default function News({ results }) {
       <ul>
         {results.map(result => {
           return (
-            <p className={styles.grid} key={result.uri}>
+            <li className={styles.grid} key={result.uri}>
               <a
-                className={styles.cardd}
+                className={styles.card}
                 href={result.url}
                 target="_blank"
                 rel="noopener norefferer"
               >
                 {result.updated_date} &rarr; {result.title}
               </a>
-            </p>
+            </li>
           )
         })}
       </ul>
