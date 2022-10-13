@@ -2,26 +2,30 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    color: #333;
+  color: rgb(254, 251, 251);
+  background-color: rgb(6, 9, 15);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
 h1 {
-  color: blueviolet;
+  font-size: 72px;
+  background: -webkit-linear-gradient(223.75deg, rgb(0, 163, 255) 4.8%, rgb(0, 84, 198) 95.02%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 p {
   font-size: 18px;
-  color: gray;
+  color: rgb(163, 163, 163);
 }
 a {
-  color: inherit;
   text-decoration: none;
   font-size: 18px;
-  color: gray;
+  color: rgb(163, 163, 163);
 }
 
 * {
   box-sizing: border-box;
 }
+

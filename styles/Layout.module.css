@@ -5,14 +5,14 @@
 }
 
 .link {
-    color: purple
+    color: #077bff;
 }
 .link:hover {
     text-decoration: underline;
 }
 
 .active {
-    color: purple;
+    color: #0178ff;
     font-weight: 700;
 }
 .active:hover {

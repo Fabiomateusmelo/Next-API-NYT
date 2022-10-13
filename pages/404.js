@@ -24,9 +24,6 @@ export default function NotFound() {
                             justify-content: center;
                             flex-direction: column;
                         }
-                        h1 {
-                            color: chocolate;
-                        }
                     `}
                     </style>
                 </div>
