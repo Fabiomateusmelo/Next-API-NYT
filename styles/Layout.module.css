@@ -1,20 +1,19 @@
-
 .container {
-    width: 80%;
-    margin: 1.5rem auto;
+  width: 80%;
+  margin: 1.5rem auto;
 }
 
 .link {
-    color: #077bff;
+  color: #077bff;
 }
 .link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .active {
-    color: #0178ff;
-    font-weight: 700;
+  color: #0178ff;
+  font-weight: 700;
 }
 .active:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }

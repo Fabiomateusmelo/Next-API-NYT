@@ -7,18 +7,17 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
 h1 {
   font-size: 72px;
-  background: -webkit-linear-gradient(223.75deg, rgb(0, 163, 255) 4.8%, rgb(0, 84, 198) 95.02%);
+  background: -webkit-linear-gradient(
+    223.75deg,
+    rgb(0, 163, 255) 4.8%,
+    rgb(0, 84, 198) 95.02%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-p {
-  font-size: 18px;
-  color: rgb(163, 163, 163);
-}
 a {
   text-decoration: none;
   font-size: 18px;
@@ -29,3 +28,29 @@ a {
   box-sizing: border-box;
 }
 
+input[type='text'] {
+  width: 20rem;
+  margin: 4px 0;
+  box-sizing: border-box;
+  border: 3px solid rgb(6, 9, 15);
+  -webkit-transition: 0.4s;
+  transition: 0.4s ease;
+  outline: none;
+  background-color: #222;
+  color: #eaeaea;
+  font-size: 18px;
+  background-image: url('../public/searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+
+
+input[type='text']:focus {
+  border: 3px ridge #0070f3;
+  width: 23rem;
+}
+
+input::placeholder {
+  color: rgb(163, 163, 163);
+}
