@@ -1,19 +1,20 @@
+
 .container {
-  width: 80%;
-  margin: 1.5rem auto;
+    width: 80%;
+    margin: 1.5rem auto;
 }
 
 .link {
-  color: #0070f3
+    color: purple
 }
 .link:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .active {
-  color: #0070f3;
-  font-weight: 700;
+    color: purple;
+    font-weight: 700;
 }
 .active:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }

@@ -42,12 +42,13 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 3.6rem;
+  font-size: 4rem;
 }
 
 .title,
 .description {
   text-align: center;
+  color: saddlebrown;
 }
 
 .description {
@@ -61,7 +62,6 @@
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
-  padding-top: 1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
@@ -71,7 +71,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 100%;
+  max-width: 800px;
 }
 
 .card {
@@ -89,8 +89,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: blueviolet;
+  border-color: blueviolet;
 }
 
 .card h2 {
@@ -113,18 +113,5 @@
   .grid {
     width: 100%;
     flex-direction: column;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
   }
 }
