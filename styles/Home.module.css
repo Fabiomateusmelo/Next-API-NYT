@@ -66,19 +66,6 @@
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
-.codee {
-  background: #0070f3;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  transition: all 0.2s ease;
-  position: fixed;
-}
-
-.codee:hover {
-  filter: brightness(0.8);
-}
-
 .grid {
   display: flex;
   align-items: center;
@@ -96,9 +83,8 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 100%;
+  max-width: 300px;
 }
-
 
 .card:hover,
 .card:focus,
@@ -106,7 +92,6 @@
   color: #0070f3;
   border-color: #0070f3;
 }
-
 
 .card h2 {
   margin: 0 0 1rem 0;
