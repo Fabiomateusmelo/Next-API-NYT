@@ -8,7 +8,7 @@ export async function results(url) {
       if (!!result.multimedia) {
         img = result.multimedia[0].url
       } else {
-        img = result.media[0] ? result.media[0]["media-metadata"][0].url : gif
+        img = result.multimedia[0] ? result.multimedia[0]["media-metadata"][0].url : gif
       }
       return {
         uri: result.uri,
