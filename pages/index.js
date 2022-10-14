@@ -49,6 +49,9 @@ export default function Home() {
             placeholder="Search..."
             name="search"
           />
+          <button type="submit">
+            Search
+          </button>
         </form>
 
         <div className={styles.grid}>
