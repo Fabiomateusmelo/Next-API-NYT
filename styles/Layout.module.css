@@ -5,17 +5,18 @@
 
 .link {
   color: #077bff;
+  font-weight: 500;
 }
 .link:hover {
-  text-decoration: underline;
+  filter: brightness(1.4);
 }
 
 .active {
   color: #0178ff;
-  font-weight: 700;
+  font-weight: 900;
 }
 .active:hover {
-  text-decoration: underline;
+  filter: brightness(1.4);
 }
 
 
