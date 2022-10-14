@@ -1,22 +1,35 @@
 .container {
-  width: 80%;
+  width: 95%;
   margin: 1.5rem auto;
 }
 
 .link {
-  color: #077bff;
+  color: rgb(254, 251, 251);
   font-weight: 500;
 }
 .link:hover {
+  background: -webkit-linear-gradient(
+    223.75deg,
+    rgb(0, 163, 255) 4.8%,
+    rgb(0, 84, 198) 95.02%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   filter: brightness(1.4);
 }
 
 .active {
   color: #0178ff;
   font-weight: 900;
-}
-.active:hover {
+  background: -webkit-linear-gradient(
+    223.75deg,
+    rgb(0, 163, 255) 4.8%,
+    rgb(0, 84, 198) 95.02%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   filter: brightness(1.4);
 }
-
-
+.active:hover {
+  filter: brightness(1.1);
+}
