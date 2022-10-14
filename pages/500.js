@@ -11,7 +11,7 @@ export default function NotFound500() {
   return (
     <Layout>
       <div className="container">
-        <h1>404 PAGE NOT FOUND</h1>
+        <h1>500 INTERNAL SERVER ERROR</h1>
         <Image src={gif} alt="not found" />
         <a href="#" onClick={goBack}>
         Back
