@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Layout from "../../components/Layout"
 import List from "../../components/List"
-import { results } from "../api";
+import { results, resultss } from "../api";
 
 function News(props) {
   // Render post...
@@ -38,7 +38,7 @@ export async function getStaticProps({ params }) {
     case 'top-stories':
       return {
         props: {
-          results : await results(`https://api.nytimes.com/svc/topstories/v2/home.json?api-key=${API_KEY}`), 
+          results : await resultss(`https://api.nytimes.com/svc/topstories/v2/home.json?api-key=${API_KEY}`), 
           title: "Top Stories"
         }
       }
