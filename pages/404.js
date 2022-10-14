@@ -12,14 +12,14 @@ export default function NotFound() {
     <Layout>
       <div className="container">
         <h1>404 PAGE NOT FOUND</h1>
+        <button href="#" onClick={goBack}>
+          Back
+        </button>
         <Image src={gif} alt="not found" />
-        <a href="#" onClick={goBack}>
-        Back
-        </a>
         <style>
           {`
             .container {
-              height: 80vh;
+              height: 85vh;
               display: flex;
               align-items: center;
               justify-content: center;
