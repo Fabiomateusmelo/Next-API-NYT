@@ -5,13 +5,22 @@
 }
 
 .card {
-  width: 30rem;
+  width: 70%;
+  padding: 2px;
   list-style-type: none;
   border-radius: 4px;
   display: flex;
   align-items: center;
   border: 1px solid rgb(21, 27, 38);
 }
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
 .img {
   border-radius: 4px;
 }

@@ -14,8 +14,8 @@ export default function List({ results, title }) {
                 className={styles.img}
                 src={img}
                 alt={title}
-                width="100"
-                height="100"
+                width="85"
+                height="85"
               />
               <a className={styles.link} href={url} rel="noreferrer nofollower">
                 {title}
