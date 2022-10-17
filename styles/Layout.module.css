@@ -39,3 +39,24 @@
 .active:hover {
   filter: brightness(1.4);
 }
+
+@media (min-width: 1400px) {
+  .link,
+  .active:hover, 
+  .active, 
+  .link:hover {
+    padding: 25px 150px 25px 150px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .link,
+  .active:hover, 
+  .active, 
+  .link:hover {
+    padding: 25px 170px 25px 170px;
+  }
+}
+
+
+
