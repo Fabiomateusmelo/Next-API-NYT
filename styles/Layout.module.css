@@ -40,21 +40,32 @@
   filter: brightness(1.4);
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1410px) {
   .link,
   .active:hover, 
   .active, 
   .link:hover {
-    padding: 25px 150px 25px 150px;
+    border-bottom: 0px solid rgb(21, 27, 38);
   }
 }
 
-@media (min-width: 1600px) {
+@media (max-width: 1350px) {
   .link,
   .active:hover, 
   .active, 
   .link:hover {
-    padding: 25px 170px 25px 170px;
+    padding: 25px 6px 6px 20px;
+    border-bottom: 0px solid rgb(21, 27, 38);
+  }
+}
+
+@media (min-width: 1599px) {
+  .link,
+  .active:hover, 
+  .active, 
+  .link:hover {
+    padding: 25px 162px 25px 162px;
+    border-bottom: 1px solid rgb(21, 27, 38);
   }
 }
 

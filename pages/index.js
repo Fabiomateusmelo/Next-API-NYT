@@ -46,7 +46,7 @@ export default function Home() {
           <input
             type="text"
             onChange={handleOnChange}
-            placeholder="Search..."
+            placeholder="Search articles by keyword..."
             name="search"
           />
           <button type="submit">Search</button>
