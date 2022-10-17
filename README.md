@@ -1,3 +1,13 @@
+# News Feed
+### Website que consome a API do New York Times feito com ReactJS e NextJS. Funcionalidades como paginação estática das melhores histórias e as mais populares, faz buscas em artigos de notícias por meio de palavra chave relacional.
+![2acbf5a5-2113-4956-a66d-d640107d3ca6 (1)](https://user-images.githubusercontent.com/105231558/196297673-6e4a845f-399a-4ee6-8162-bf28714b5958.png)
+### https://next-data-api.vercel.app/
+### 🛠️ Nesse projeto foi utilizado
+
+* NextJS
+* CSS Modules
+* JavaScript
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
