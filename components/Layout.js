@@ -30,7 +30,7 @@ export default function Layout({ children }) {
         return (
           <Link key={link.title} href={link.path}>
             <a className={`${className}`} >
-              {link.title}{' '}
+              {link.title}{''}
             </a>
           </Link>
         )
