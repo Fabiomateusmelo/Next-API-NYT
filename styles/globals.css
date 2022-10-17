@@ -34,7 +34,7 @@ a {
   box-sizing: border-box;
 }
 
-input {
+input[type='text'] {
   width: 20rem;
   margin: 4px 0;
   box-sizing: border-box;
@@ -45,13 +45,10 @@ input {
   background-color: #222;
   color: #eaeaea;
   font-size: 18px;
-  background-image: url('../public/searchicon.png');
-  background-position: 10px 10px;
-  background-repeat: no-repeat;
-  padding: 12px 20px 12px 40px;
+  padding: 12px 20px 12px 12px;
 }
 
-input:focus {
+input[type='text']:focus {
   border: 3px ridge #0070f3;
   width: 23rem;
 }
