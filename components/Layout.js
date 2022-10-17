@@ -29,7 +29,7 @@ export default function Layout({ children }) {
           link.path === router.asPath ? styles.active : styles.link
         return (
           <Link key={link.title} href={link.path}>
-            <a className={className} >
+            <a className={`${className}`} >
               {link.title}{' '}
             </a>
           </Link>

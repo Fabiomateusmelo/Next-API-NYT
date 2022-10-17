@@ -1,11 +1,15 @@
 .container {
-  width: 95%;
+  width: 100%;
   margin: 1.5rem auto;
+  background-color: rgb(6, 9, 15);
 }
 
 .link {
   color: rgb(254, 251, 251);
   font-weight: 500;
+  padding: 25px 132px 25px 132px;
+  border-bottom: 1px solid rgb(21, 27, 38);
+  filter: brightness(1.2);
 }
 .link:hover {
   background: -webkit-linear-gradient(
@@ -15,7 +19,7 @@
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  filter: brightness(1.4);
+  filter: brightness(1.2);
 }
 
 .active {
@@ -28,8 +32,10 @@
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  filter: brightness(1.4);
+  filter: brightness(1.2);
+  padding: 25px 130px 25px 130px;
+  border-bottom: 1px solid rgb(21, 27, 38);
 }
 .active:hover {
-  filter: brightness(1.1);
+  filter: brightness(1.4);
 }
