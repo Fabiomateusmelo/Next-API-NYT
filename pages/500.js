@@ -15,15 +15,19 @@ export default function NotFound500() {
         <button href="#" onClick={goBack}>
           Back
         </button>
+        <br/>
         <Image src={gif} alt="not found" />
         <style>
           {`
             .container {
+              margin-top: 1.6rem;
               height: 85vh;
               display: flex;
               align-items: center;
               justify-content: center;
               flex-direction: column;
+              background: black;
+              border-bottom: 1px solid rgb(21, 27, 38);
             }
           `}
         </style>
