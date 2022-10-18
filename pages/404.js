@@ -38,7 +38,7 @@ export default function NotFound() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by <span className={styles.logo}>{'Fábio Melo'}</span>
+          Powered by <span className={styles.logo404}>{'Fábio Melo'}</span>
         </a>
       </footer>
     </Layout>

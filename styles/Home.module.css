@@ -131,6 +131,12 @@
   font-weight: 900;
 }
 
+.logo404 {
+  color: #fafafa;
+  padding-left: 0rem;
+  font-weight: 900;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
